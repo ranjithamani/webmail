@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Css selectors</title>
+<style>
+li{
+color:red;
+font-size:22px;
+font-weight:bold;
+margin:0px;
+}
+
+#div1>p{
+color:blue;
+background-color:yellow;
+
+}
+#div1+h2{
+color:green;
+background-color:yellow;
+
+}
+h1 + p {
+		color: blue;
+		background-color:pink;
+		font-size: 18px;
+	}
+	ul.task + p {
+		color: #f0f;
+		text-indent: 30px;
+	}
+	#div2>p{
+	color: blue;
+		background-color:pink;
+	}
+
+
+
+</style>
+</head>
+
+<body>
+<h1>Combinator selector</h1>
+ <ul>
+ <li>General Sibling selector(~)</li>
+  <li>Adjecent Sibling selector(+)</li>
+ <li>Child  selector(>)</li>
+ <li>Descendent selector(space)</li>
+ </ul>
+ 
+ 
+ <div id="div1">
+ <p> General sibling Selector</p>
+<p>General sibling selector is used to select the element that follows the first selector element. </p>
+<p> used to select the group of elements that share the same parent element.</p>
+</div>
+
+<h2>adjucent selector</h2> 
+<h2>general selector</h2>
+
+<div id="div2">
+<h1>This is a heading</h1>
+	<p>This is a paragraph.</p>
+	<p>This is another paragraph.</p>
+	<ul class="task">
+		<li>Task 1</li>
+		<li>Task 2</li>
+		<li>Task 3</li>
+	</ul>
+	
+<p>Adjecent Sibling selector</p>
+<p>The adjacent sibling selectors can be used to select sibling elements.</p>
+ 
+ </body>
+ </html>
