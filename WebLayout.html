@@ -1,0 +1,136 @@
+<DOCTYPE! html>
+<html>
+<head>
+ <meta>charest="utf-8">
+ <title>Web Layout</title>
+ 
+ <style type="text/css">
+ body{
+  background-image:url("https://images.financialexpress.com/2019/01/swami.jpg");
+background-repeat:no-repeat; 
+background-size:cover; 
+ }
+ #header{
+ 
+ background-color:black;
+ color:violet;
+ text-align:center;
+ padding:10px;
+ 
+ }
+ #header h3{
+  text-align:right;
+
+ }
+ #navbar{
+  background-color:orange;
+  height:30px;
+
+ }
+ #navbar li{
+ display:inline;
+ padding:30px;
+ }
+ #ul img{
+ width:80%;
+ height:40%;
+ margin:40px;
+ }
+ 
+ #main img{
+ width:80%;
+ height:60%;
+ margin:30px;
+ 
+ 
+ }
+ #main{
+ font-size:30px;
+ font-family:monospace;
+ color:white;
+ }
+ 
+ #footer{
+ background-color:black;
+ color:orange;
+ text-align:center;
+ height:20px;
+ padding:10px;
+ position:sticky;
+ bottom:0px;
+ 
+ }
+ /*tab device*/
+ @media all and(min-width:300px),(max-width:500px){
+ #main{
+ font-size:10px;
+ font:family:monospace;
+ color:red;
+ 
+ }
+ }
+ @media all and(min-width:500px),(max-width:100px){
+ #main{
+ font-size:20px;
+ font:family:monospace;
+ color:blue;
+ }
+ }
+ /*mobile device*/
+ @media all and(min-width:300px)and(max-width:500px){
+ #main{
+ font-size:20px;
+ font:family:monospace;
+ color:red;
+ }
+ }
+ /* desktop device*/
+ @media all and(min-width:1000px){
+ #main{
+ font-size:30px;
+ font-family:monospace;
+ color:green;
+ }
+#main img{
+width:50px;
+height:40px;
+}
+}
+
+@media all and (orientation:landscape)and (min-height:1001px){
+#main{
+font-size:30px;
+ font-family:monospace;
+ color:gold;
+}
+}
+
+
+ 
+ </style>
+ </head>
+ <body>
+ <div id="header"> <img> <h1>SIDDAGANGA MUTT</h1> <h3>https://en.wikipedia.org/wiki/Siddaganga_Matha</h3> </div>
+
+ <div id="navbar">
+ <ul>
+ <li><a href="https://en.wikipedia.org/wiki/Siddaganga_Matha#Matha">Home</a></li>
+  <li><a href="#">Contact</a></li>
+ <li><a href="https://www.siddagangamath.org/siddaganga/home.html">About</a></li>
+ <li><a href="https://image3.mouthshut.com/images/imagesp/925753515s.jpg">photos & videos</a></li>
+</ul>
+</div>
+
+<div id="main"><img src="https://www.siddagangamath.org/siddaganga/img/home2.gif">
+<img src="https://www.siddagangamath.org/siddaganga/img/newbanner.gif">
+<p>
+Sree Siddaganga Math is an ancient ashram fostering a continuous line of illustrious "Shiva Yogi Siddapurushas". 
+The Math was established by Sree Gosala Siddeshwara Swamiji in 15th century.Sree Siddaganga Math is a unique Gurukula providing education to more than 10,000 poor children with free food and shelter,
+ without any discrimination of caste or creed. The Math also runs blind schools at various places & over 100 blind children are given free education & food with independent hostel facilities.</p>
+</div>
+<div id="footer">Siddaganga -Mutt</div>
+<div> Siddaganga Mutt</div>
+
+
+ </body>
+ </html>
